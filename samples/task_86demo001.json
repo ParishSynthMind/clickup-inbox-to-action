@@ -1,0 +1,55 @@
+{
+  "id": "86demo001",
+  "name": "New enquiry: Brightside Dental Group",
+  "markdown_description": "Name: Sam Carter\nEmail: sam@example.com\nBusiness: Brightside Dental Group (3 clinics)\n\nWhat do you need?\nWe run new patient enquiries through a shared inbox and a spreadsheet and things keep falling through the cracks. We'd like ClickUp set up so every enquiry becomes a task, gets assigned to the right clinic manager, and we get reminders if nobody has replied within a day. Ideally it would also connect to our website contact form. We open a fourth clinic next month so we need this running before then.",
+  "status": {"status": "triage"},
+  "list": {"id": "901234567"},
+  "url": "https://app.clickup.com/t/86demo001",
+  "custom_fields": [
+    {
+      "id": "f-service-type",
+      "name": "Service type",
+      "type": "drop_down",
+      "type_config": {"options": [
+        {"id": "opt-st-0", "name": "Workspace setup", "orderindex": 0},
+        {"id": "opt-st-1", "name": "Automation", "orderindex": 1},
+        {"id": "opt-st-2", "name": "Integration / API", "orderindex": 2},
+        {"id": "opt-st-3", "name": "AI assistant", "orderindex": 3},
+        {"id": "opt-st-4", "name": "Consulting / other", "orderindex": 4}
+      ]},
+      "value": null
+    },
+    {
+      "id": "f-budget-band",
+      "name": "Budget band",
+      "type": "drop_down",
+      "type_config": {"options": [
+        {"id": "opt-b-0", "name": "Under $500", "orderindex": 0},
+        {"id": "opt-b-1", "name": "$500 - $2,000", "orderindex": 1},
+        {"id": "opt-b-2", "name": "$2,000 - $5,000", "orderindex": 2},
+        {"id": "opt-b-3", "name": "Over $5,000", "orderindex": 3},
+        {"id": "opt-b-4", "name": "Not sure yet", "orderindex": 4}
+      ]},
+      "value": 1
+    },
+    {
+      "id": "f-ai-summary",
+      "name": "AI Summary",
+      "type": "text",
+      "type_config": {},
+      "value": null
+    },
+    {
+      "id": "f-ai-priority",
+      "name": "AI Priority",
+      "type": "drop_down",
+      "type_config": {"options": [
+        {"id": "opt-p-0", "name": "Urgent", "orderindex": 0},
+        {"id": "opt-p-1", "name": "High", "orderindex": 1},
+        {"id": "opt-p-2", "name": "Normal", "orderindex": 2},
+        {"id": "opt-p-3", "name": "Low", "orderindex": 3}
+      ]},
+      "value": null
+    }
+  ]
+}
